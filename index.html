@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css" />
+    <script src="js/funcoes.js"></script>
+    <title>Planilha de Controle</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar bg-dark navbar-expand{-sm|-md|-lg|-xl|-xxl} navbar-toggler navbar-collapse" data-bs-theme="dark">
+        <div class="container-fluid ">
+            <a class="navbar-brand bg-body-tertiary" href="index.html">
+                <img src="img/logosdia2.png" alt="AIM" width="80" height="24" class="d-inline-block align-text-top">
+                AIM
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            AIM 1
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="aim1.html">AIM 1 OPERADOR 1</a></li>
+                            <li><a class="dropdown-item" href="aim1.html">AIM 1 OPERADOR 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            AIM 2
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="aim2.html">AIM 2 OPERADOR 1</a></li>
+                            <li><a class="dropdown-item" href="aim2.html">AIM 2 OPERADOR 2</a></li>
+                            <li><a class="dropdown-item" href="aim2.html">AIM 2 OPERADOR 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Gerência
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Documentos</a></li>
+                            <li><a class="dropdown-item" href="#">Monitoramento</a></li>
+                            <li><a class="dropdown-item" href="#">Estatística AIM 1 e AIM 2</a></li>
+                            <li><a class="dropdown-item" href="#">Estatística Produtos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h1 class="text-center">AIM</h1>
+        <h2 class="text-center">Bizus de prazo</h2>
+        <section class="apresentacao">
+            <section class="apresentacao__conteudo">
+                <div class="apresentacao__links">
+                    <table class="table" border="1">
+                        <tr>
+                            <th></th>
+                            <th>Código A1 - Fora do prazo</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th>ITEM</th>
+                            <th>ASSUNTO</th>
+                            <th>PRAZO</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="ica">ICA 53-4</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>4.1.1</td>
+                            <td>
+                                Deslocamentos e fundeios de embarcações ou plataformas marítimas.
+                            </td>
+                            <td>19 dias</td>
+                        </tr>
+
+                        <tr>
+                            <td>4.1.2</td>
+                            <td>Manutenções preventivas de auxílio à navegação aérea ou sistemas de navegação.</td>
+                            <td>12 dias</td>
+                        </tr>
+                        <tr>
+                            <td>4.2.1</td>
+                            <td>Manutenções preventivas de auxílio à navegação aérea ou sistemas de navegação.</td>
+                            <td>12 dias</td>
+                        </tr>
+                        <tr>
+                            <td>4.3.2</td>
+                            <td>Atualização em caráter temporário, que conste da AIP ou ROTAER, no que se refere à
+                                indisponibilidade, à redução de categoria ou ao horário de funcionamento dos serviços de
+                                salvamento e contraincêndio.</td>
+                            <td>12 dias</td>
+                        </tr>
+                        <tr>
+                            <td>4.3.12</td>
+                            <td>Surgimento, cancelamento ou modificação na concentração de pássaros que possa interferir
+                                nas
+                                operações de pouso e decolagem ou circulação dos aeródromos.</td>
+                            <td>09 dias</td>
+                        </tr>
+                        <tr>
+                            <td>4.3.13</td>
+                            <td>Surgimento, cancelamento ou modificação de obstáculos que possam interferir nas
+                                operações de
+                                pouso e decolagem ou circulação dos aeródromos.</td>
+                            <td>09 dias</td>
+                        </tr>
+                        <tr>
+                            <td>4.6.1</td>
+                            <td>Sistemas de Aeronaves Remotamente Pilotadas (RPAS).</td>
+                            <td>09 dias</td>
+                        </tr>
+                        <tr>
+                            <td>4.8.1</td>
+                            <td>Ativação ou modificação nas características ou nos horários de funcionamento dos órgãos
+                                ou
+                                instalações dos serviços de navegação aérea.</td>
+                            <td>12 dias</td>
+                        </tr>
+                        <tr>
+                            <td>4.8.2</td>
+                            <td>Indisponibilidade programada, em caráter temporário, quando a previsão do consequente
+                                restabelecimento exceder sessenta minutos.</td>
+                            <td>12 dias</td>
+                        </tr>
+                        <tr>
+                            <td>4.14.5</td>
+                            <td>Modificações nas características físicas e operacionais de aeródromos, helipontos ou
+                                áreas
+                                exclusivamente militares, em caráter temporário.</td>
+                            <td>05 dias</td>
+                        </tr>
+                        <tr>
+                            <td>4.14.6</td>
+                            <td>Interdição ou impraticabilidade, total ou parcial, na área de movimento de aeródromos,
+                                helipontos ou áreas exclusivamente militares, em caráter temporário.</td>
+                            <td>05 dias</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>ICA 100-38</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>7.2.11</td>
+                            <td></td>
+                            <td>35 dias úteis</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section class="tabela2">
+                <table class="table" border="1">
+                    <tr>
+                        <th></th>
+                        <th>Código A4 – Sem documento</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="ica">ICA 100-38</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>7.1.1.1 NOTA 1</td>
+                        <td>O documento deve conter anexo o Formulário para Solicitação de EAC (Anexo A) devidamente
+                            preenchido. Os dados dos limites laterais do EAC pretendido deve estar em formato KMZ, para
+                            garantir celeridade ao processo de análise.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="ica">ICA 53-1</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2.5.29</td>
+                        <td>Não se deve manter interseccionadas duas ou mais áreas condicionadas ativas ou vigentes ao
+                            mesmo
+                            tempo, sejam elas temporárias ou permanentes, com exceção das áreas ativadas em função de
+                            obstáculos e as previstas em acordos operacionais.</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </section>
+            <section class="tabela3">
+                <table class="table" border="1">
+                    <tr>
+                        <th></th>
+                        <th>Código A7 – Raio </th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>ICA 53-1</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3.4.11.5</td>
+                        <td>Para os assuntos enquadrados somente no âmbito do aeródromo (A), serão inseridas as
+                            coordenadas
+                            do ARP e raio de 5NM.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3.4.11.6</td>
+                        <td>Quando se tratar de procedimentos ATS, serão usadas as coordenadas do aeródromo, e o raio
+                            deverá
+                            ser de 40NM.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3.4.11.10</td>
+                        <td>Quando o assunto for relacionado a obstáculo que interfira nas operações do aeródromo,
+                            deverão
+                            ser utilizadas as coordenadas do aeródromo e o raio de 5NM.</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table class="table" border="1">
+                    <tr>
+                        <th></th>
+                        <th>Código A2 – Metadados</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>TCA 53-2</td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <table class="table" border="1">
+                    <tr>
+                        <th></th>
+                        <th>Código A3 – Assunto/Título</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>ICA 53-4</td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <table class="table" border="1">
+                    <tr>
+                        <th></th>
+                        <th>Código A5 – Referência</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>ICA 53-4</td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <table class="table" border="1">
+                    <tr>
+                        <th></th>
+                        <th>Código A6 – Coordenadas</th>
+                        <th></th>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>ICA 53-4</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Filipe de Bianchi Andrade</p>
+    </footer>
+</body>
+
+</html>

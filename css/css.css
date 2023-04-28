@@ -1,0 +1,93 @@
+h1, h2{
+    text-align:center;
+
+}
+#cifrao {
+    color:green;
+}
+footer {
+    background-color: #555555;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+.produto-item {
+    color:red;
+    font:bolder;
+    font-weight: 700;
+}
+table {
+    text-align:center;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.container__esq {
+    background-color: #f6f6f6;
+}
+.container__esq label {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.container__esq label input, select, textarea{
+    border-radius:5px;
+    border:1px solid black;
+}
+.container__dir {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap:32px;
+}
+
+.observacoes, .motivo_retorno, .justificativa_esc, .originador {
+    height:80px;
+}
+.apresentacao {
+    display: flex;
+    align-items: normal;
+    /* flex-direction: column; */
+    justify-content: center;
+    padding: 2% 10% 5% 10%;
+}
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+}
+.apresentacao__links {
+    background-color: white;
+}
+.tabela2, .tabela3 {
+    width: 500px;
+}
+.tabela2 {
+    background-color: white;
+}
+.tabela3 {
+    background-color:white;
+}
+th  {
+    background-color: blue !important;
+    color: #ffffff !important;
+}
+tr {
+    background-color: #c3f4fd !important;
+}
+label {
+    padding-top:15px;
+    padding-bottom:20px;
+}
+
+.form-label {
+    width:400px !important;
+}

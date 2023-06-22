@@ -15,7 +15,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/css.css" />
-	<script src="js/funcoes.js"></script>
+	
 	<title>Planilha de Controle</title>
 </head>
 
@@ -133,7 +133,8 @@
 						<option value="RPA-VANT-DRONE">VOO DE DRONE / RPA / VANT</option>
 
 					</select></label>
-				<label>Solicitou Esclarecimento?<select name="sol_esc" id="sol_esc" required>
+				<label>Solicitou Esclarecimento? <input type="checkbox" name="solicitouEsclarecimento" id="solicitouEsclarecimento">
+					<select name="sol_esc" id="sol_esc" required>
 						<option value="none"></option>
 						<option value="sim">SIM</option>
 						<option value="nao">NÃO</option>
@@ -237,12 +238,12 @@
 				<label>Observações<textarea id="observacoes" name="observacoes" rows="4" cols="50"> </textarea>
 				<div class="container__dir">
 				</label>
-				<input type="submit" value="Enviar" class="btn btn-primary">
+				<input type="submit" value="Enviar" class="btn btn-primary" id="enviar">
 				</div>
 			</section>
 		</form>
 	</main>
-
+	<script src="js/funcoes.js"></script>
     <footer class="rodape">
         <p>Desenvolvido por Filipe de Bianchi Andrade</p>
     </footer>
